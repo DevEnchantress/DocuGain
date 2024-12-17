@@ -108,7 +108,7 @@
             HorizontalAlignment="Center" 
             Width="120"/>
             
-            <Button Content="Übung" 
+            <Button Content="Übungen" 
             Background="Transparent" 
             Foreground="White" 
             FontSize="14" 
