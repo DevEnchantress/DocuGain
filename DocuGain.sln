@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuGain", "DocuGain\DocuGain.csproj", "{ADD0173D-5799-4D1B-AAB5-BE87D355FE39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD0173D-5799-4D1B-AAB5-BE87D355FE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD0173D-5799-4D1B-AAB5-BE87D355FE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD0173D-5799-4D1B-AAB5-BE87D355FE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD0173D-5799-4D1B-AAB5-BE87D355FE39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEAF7B80-DACD-48F0-8A48-780867E87995}
+	EndGlobalSection
+EndGlobal
