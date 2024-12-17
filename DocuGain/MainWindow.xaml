@@ -21,7 +21,102 @@
                    Foreground="#B0B0B0" 
                    HorizontalAlignment="Center" 
                    Margin="0,60,0,0"/>
-        
+
+        <!-- Buttons in einem Grid-Layout -->
+        <Grid Margin="20,120,20,80">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Schnellstart-Training -->
+            <Button Content="Schnellstart-Training&#xA;Starten"
+            Grid.Row="0" Grid.Column="0"
+            Margin="5"
+            Background="#333333" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderBrush="#444" 
+            Padding="10"/>
+
+            <!-- Übung erstellen -->
+            <Button Content="Übung erstellen" 
+            Grid.Row="0" Grid.Column="1"
+            Margin="5"
+            Background="#333333" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderBrush="#444" 
+            Padding="10"/>
+
+            <!-- Training erstellen -->
+            <Button Content="Training erstellen" 
+            Grid.Row="1" Grid.Column="0"
+            Margin="5"
+            Background="#333333" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderBrush="#444" 
+            Padding="10"/>
+
+            <!-- Datenanalyse -->
+            <Button Content="Datenanalyse" 
+            Grid.Row="1" Grid.Column="1"
+            Margin="5"
+            Background="#333333" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderBrush="#444" 
+            Padding="10"/>
+
+            <!-- Training starten (großer Button) -->
+            <Button Content="Training starten" 
+            Grid.Row="2" Grid.ColumnSpan="2"
+            Margin="5"
+            Background="#007ACC" 
+            Foreground="White" 
+            FontSize="16" 
+            FontWeight="Bold" 
+            Padding="15" 
+            BorderBrush="#005F99"/>
+        </Grid>
+
+        <!-- Menüleiste -->
+        <StackPanel Orientation="Horizontal" 
+            VerticalAlignment="Bottom" 
+            Background="#2C2C2C" 
+            Height="50">
+            
+            <Button Content="Home" 
+            Background="Transparent" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderThickness="0" 
+            HorizontalAlignment="Left" 
+            Width="120"/>
+            
+            <Button Content="Tracking" 
+            Background="Transparent" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderThickness="0" 
+            HorizontalAlignment="Center" 
+            Width="120"/>
+            
+            <Button Content="Übungen" 
+            Background="Transparent" 
+            Foreground="White" 
+            FontSize="14" 
+            BorderThickness="0" 
+            HorizontalAlignment="Right" 
+            Width="120"/>
+        </StackPanel>
+
     </Grid>
 </Window>
 
