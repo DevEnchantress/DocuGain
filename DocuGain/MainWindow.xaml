@@ -1,12 +1,27 @@
 ﻿<Window x:Class="DocuGain.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DocuGain"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="DocuGain" 
+        Width="360" Height="640" 
+        WindowStartupLocation="CenterScreen"
+        Background="#1E1E1E">
 
+    <Grid>
+        <!-- Überschrift -->
+        <TextBlock Text="DocuGain" 
+                   FontSize="24" 
+                   FontWeight="Bold" 
+                   Foreground="White" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,20,0,0"/>
+
+        <!-- Begrüßung -->
+        <TextBlock Text="Hi [Name User]" 
+                   FontSize="16" 
+                   Foreground="#B0B0B0" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,60,0,0"/>
+        
     </Grid>
 </Window>
+
