@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+"nderung im main-Branch" 
+=======
+"nderung in den dev-Branch" 
+>>>>>>> dev
 "nderung im main-Branch" 
